@@ -1845,7 +1845,7 @@ span.blu-color {
 .custom_btn {
   height: 60px;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   /* min-width: 230px; */
   padding: 0px 30px;
@@ -1853,7 +1853,7 @@ span.blu-color {
   border-radius: 4px;
   text-align: center;
   display: inline-block;
-  font-family: "Goldman", cursive;
+  font-family: Arial, Helvetica, sans-serif;
   transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .custom_btn:hover {
