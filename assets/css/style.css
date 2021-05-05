@@ -168,7 +168,7 @@ select {
 	background: transparent;
 	border: 1px solid #ddd;
 	padding: 15px 15px;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	transition: .3s;
@@ -361,6 +361,10 @@ textarea:focus::-webkit-input-placeholder {
 
 .blog-bg-6 {
 	background-image: url(../img/blog/blog-bg-6.jpg);
+}
+
+.bread-bg-booking {
+	background-image: url(../img/bread/bread-bg-booking.jpg);
 }
 
 .bread-bg-about {
@@ -1566,6 +1570,324 @@ span.blu-color {
 	margin-top: 25px;
 	color: #444;
 	font-size: 16px;
+}
+
+/* Rent a car CSS */
+
+.advance_search_form {
+  margin-top: 130px;
+}
+
+.advance_search_form button[type=submit] {
+  width: 100%;
+  display: block;
+}
+
+.advance_search_form {
+  margin-top: 100px;
+}
+
+.advance_search_form {
+	margin: 60px 100px 0px;
+}
+
+.advance_search_form  {
+  margin-top: 30px;
+}
+
+.section_title .title_text {
+  line-height: 1;
+  font-size: 48px;
+}
+
+.section_title .title_text span {
+  padding: 0px 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.section_title .title_text span:before, .section_title .title_text span:after {
+  top: 50%;
+  width: 20px;
+  height: 8px;
+  content: "";
+  position: absolute;
+  display: inline-block;
+  transform: translateY(-50%);
+  background-color: #EA001E;
+}
+
+.section_title .title_text span:before {
+  left: 0px;
+}
+
+.section_title .title_text span:after {
+  right: 0px;
+}
+
+.section_title .title_text {
+  font-size: 40px;
+}
+
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.form_item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.form_item .input_icon {
+  top: 50%;
+  margin: 0px;
+  right: 15px;
+  padding: 5px;
+  color: #6E7684;
+  position: absolute;
+  background-color: #ffffff;
+  transform: translateY(-50%);
+}
+.form_item input, .form_item textarea {
+  width: 100%;
+  outline: none;
+  display: block;
+  color: #6E7684;
+  font-size: 12px;
+  padding: 0px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #D8D8D8;
+  transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.form_item input:focus, .form_item textarea:focus {
+  border-color: #000C21;
+}
+.form_item input {
+  height: 60px;
+}
+.form_item textarea {
+  min-height: 190px;
+  padding: 15px 20px;
+}
+.form_item .nice-select {
+  width: 100%;
+  float: none;
+  height: 60px;
+  color: #6E7684;
+  display: block;
+  font-size: 16px;
+  text-align: left;
+  line-height: 60px;
+  padding: 0px 20px;
+  border-radius: 4px;
+  border: solid 1px #D8D8D8;
+  transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.form_item .nice-select:after {
+  width: auto;
+  border: none;
+  float: right;
+  height: auto;
+  color: #6E7684;
+  margin-top: 0px;
+  content: "";
+  font-weight: 700;
+  position: static;
+  transform: unset;
+  display: inline-block;
+  transform-origin: unset;
+  font-family: "Font Awesome 5 Pro";
+}
+.form_item .nice-select .list {
+  width: 100%;
+  margin-top: 2px;
+  min-width: 230px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #D8D8D8;
+  box-shadow: 0px 5px 20px 1px rgba(0, 0, 0, 0.15);
+}
+.collapse_search_body .form_item {
+  margin: 0px;
+}
+.collapse_search_body .form_item input {
+  padding: 0px;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+.collapse_search_body .form_item input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.collapse_search_body .form_item input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.collapse_search_body .form_item input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.collapse_search_body .form_item input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+.collapse_search_body .form_item button {
+  top: 50%;
+  right: 0px;
+  color: #ffffff;
+  font-size: 22px;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.world_location .form_item .input_icon {
+  left: 20px;
+  right: unset;
+}
+.world_location .form_item input {
+  padding-left: 50px;
+}
+
+.item_shorting .form_item .nice-select {
+  height: 36px;
+  float: right;
+  max-width: 210px;
+  line-height: 34px;
+}
+.form_item .nice-select {
+    height: 55px;
+    line-height: 55px;
+  }
+	.item_shorting .form_item .nice-select {
+	    float: none;
+	    margin: 0px auto;
+	    margin-top: 15px;
+	  }
+
+
+.input_title {
+    font-size: 16px;
+  }
+	.input_title {
+	  font-size: 18px;
+	  font-weight: 700;
+	  margin-bottom: 10px;
+	  color: #000000;
+	  font-family: "Lato", sans-serif;
+	}
+
+.checkbox_input {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.checkbox_input input {
+  float: left;
+  width: 26px;
+  height: 26px;
+  outline: none;
+  margin-top: 1px;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  margin-right: 10px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #D8D8D8;
+  transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.checkbox_input input[type=radio] {
+  border-radius: 100%;
+}
+
+.checkbox_input input:before {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  font-size: 400;
+  color: #ffffff;
+  content: "√";
+  position: absolute;
+  transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Pro";
+}
+
+.checkbox_input input:checked {
+  background: #EA001E;
+  border-color: #EA001E;
+}
+
+.checkbox_input input:checked:before {
+  opacity: 1;
+}
+
+.checkbox_input label {
+  margin: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sidebar_section .checkbox_input {
+  margin-bottom: 12px;
+}
+.sidebar_section .checkbox_input label {
+  color: #6E7684;
+}
+
+.reservation_offer_checkbox .checkbox_input:not(:last-child) {
+  margin-bottom: 15px;
+}
+.register_card .checkbox_input {
+  color: #6E7684;
+}
+
+.custom_btn {
+  height: 60px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  /* min-width: 230px; */
+  padding: 0px 30px;
+  line-height: 62px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Goldman", cursive;
+  transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.custom_btn:hover {
+  color: #ffffff;
+}
+
+.custom_btn img {
+  margin-left: 10px;
+  display: inline-block;
+}
+.custom_btn.bg_default_red:hover {
+  background-color: #a50015;
+}
+.custom_btn.bg_default_black:hover {
+  background-color: #000817;
+}
+
+.cart_dropdown .btns_group .custom_btn {
+  height: 55px;
+  display: block;
+  font-size: 14px;
+  line-height: 57px;
+}
+.sidebar_section .custom_btn {
+  width: 100%;
+  display: block;
+}
+.car_choose_carousel .custom_btn {
+  outline: none;
+}
+.register_card .custom_btn {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
 }
 
 
