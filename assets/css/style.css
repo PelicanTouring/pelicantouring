@@ -2012,7 +2012,7 @@ p.comments-head {
 form button {
 	border: none;
 	background: transparent;
-	position: absolute;
+	/* position: absolute; */
 	top: 12px;
 	right: 25px;
 	color: #FF6900;
