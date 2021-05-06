@@ -177,7 +177,7 @@
 							<div class="row">
 								<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 									<div class="form_item mb-0" data-aos="fade-up" data-aos-delay="100">
-										<h4>Choose your car</h4>
+										<h4>Chose your car</h4>
 										<select style="font-size:14px">
 											<option value="0">Lincoln MKT</option>
 											<option value="1">BMW X5</option>
@@ -190,7 +190,44 @@
 								</div>
 
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-									<button type="submit" class="custom_btn bg_default_red btn_width text-uppercase" style="background:#a50015;left:0px;right:0px;padding-left:0px;padding-right:0px;position:relative">Book Your Car <img src="assets/img/icons/icon_01.png" alt="icon_not_found"></button>
+									<button type="submit" class="custom_btn bg_default_red btn_width text-uppercase" data-toggle="modal" data-target="#exampleModal" style="background:#a50015;left:0px;right:0px;padding-left:0px;padding-right:0px;position:relative">Book Your Car <img src="assets/img/icons/icon_01.png" alt="icon_not_found"></button>
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									  <div class="modal-dialog modal-dialog-centered" role="document">
+									    <div class="modal-content" style="margin:20px">
+									      <div class="modal-header">
+									        <h3 class="modal-title" id="exampleModalLabel" style="margin:0px auto;">Your Information</h3>
+									        <button type="button" class="close" data-dismiss="modal" style="margin:0px;" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body" style="margin:15px;">
+									        <form>
+									          <div class="form-group">
+									            <label for="customer-name" class="col-form-label"><h4>Name:</h4></label>
+									            <input type="text" class="form-control" id="customer-name">
+									          </div>
+									          <div class="form-group">
+									            <label for="customer-email" class="col-form-label"><h4>Email:</h4></label>
+									            <textarea class="form-control" id="customer-email"></textarea>
+									          </div>
+														<div class="form-group">
+									            <label for="customer-phone" class="col-form-label"><h4>Phone:</h4></label>
+									            <textarea class="form-control" id="customer-phone"></textarea>
+									          </div>
+														<div class="form-group">
+									            <label for="customer-note" class="col-form-label"><h4>Note:</h4></label>
+									            <textarea class="form-control" id="customer-note"></textarea>
+									          </div>
+									        </form>
+									      </div>
+									      <div class="modal-footer" style="padding:20px">
+									        <button type="button" class="btn btn-secondary" style="" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary" style="background:#a50015;" data-dismiss="modal">Sumbit</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
 								</div>
 							</div>
 						</form>
