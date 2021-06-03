@@ -235,6 +235,10 @@ textarea:focus::-webkit-input-placeholder {
 	background-image: url(../img/slider/hero-area-bg-2.jpg);
 }
 
+.hero-area-bg-3 {
+	background-image: url(../img/slider/hero-area-bg-3.jpg);
+}
+
 .reservation-area {
 	background-image: url(../img/reserv-bg.jpg);
 }
